@@ -1,4 +1,4 @@
-﻿using ImageFinder.Common.Models;
+﻿using PoolObserver.Common.Constants;
 using System;
 
 namespace PoolObserver.Bot.Managers

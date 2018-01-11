@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Bot\bin\Debug\PoolObserver.Bot.dll
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Bot\bin\Debug\PoolObserver.Bot.pdb
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Bot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Bot\bin\Debug\PoolObserver.Common.dll
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Bot\bin\Debug\Telegram.Bot.dll
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Bot\bin\Debug\PoolObserver.Common.pdb
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Bot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Bot\bin\Debug\Telegram.Bot.xml
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Bot\obj\Debug\PoolObserver.Bot.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Bot\obj\Debug\PoolObserver.Bot.dll
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Bot\obj\Debug\PoolObserver.Bot.pdb

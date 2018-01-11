@@ -18,6 +18,7 @@ namespace PoolObserver.Bot.Managers
         private MessageManager messageManager;
         private BackgroundWorker backgroundWorker;
         private List<Subscriber> subs;
+        private bool expectToken;
 
         public EventManager(TelegramBotClient telegramBotClient)
         {
@@ -50,10 +51,21 @@ namespace PoolObserver.Bot.Managers
             {
                 case MessageType.TextMessage:
                     {
+                        if (this.expectToken)
+                        {
+                            this.ObserveMiner(update);
+                            return;
+                        }
+
                         if (update.Message.Text[0] == '/')
                         {
                             LoggingManager.LogEvent("Trying to resolve received command...", LogType.Event);
                             var command = GetCommandType(update.Message.Text);
+                            if (command == Command.Subscribe)
+                            {
+                                this.expectToken = true;
+                            }
+
                             ResolveCommand(command, update);
                         }
                         else
@@ -80,7 +92,7 @@ namespace PoolObserver.Bot.Managers
             {
                 case Command.ObserveMiner:
                     {
-                        this.ObserveMiner(update);
+                        //this.ObserveMiner(update);
                         break;
                     }
                 case Command.GetCurrentHashrate:
@@ -146,8 +158,8 @@ namespace PoolObserver.Bot.Managers
         {
             try
             {
-                string miner = update.Message.Text.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)[1];
-                if (miner.Length != 35)
+                string miner = update.Message.Text;
+                if (miner.Length != 35 && miner.Length != 40)
                 {
                     LoggingManager.LogEvent(string.Format("Failed to subscribe cash ***{0}", miner.Substring((int)(miner.Length / 1.5)).ToLower()), LogType.Error);
                     messageManager.SendTextMessage(update.Message, "It seems like you provide invalid token...");

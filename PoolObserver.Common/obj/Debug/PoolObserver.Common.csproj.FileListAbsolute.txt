@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Common\bin\Debug\PoolObserver.Common.dll
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Common\bin\Debug\PoolObserver.Common.pdb
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Common\obj\Debug\PoolObserver.Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Common\obj\Debug\PoolObserver.Common.dll
+C:\Users\Administrator\Documents\visual studio 2015\Projects\PoolObserver\PoolObserver.Common\obj\Debug\PoolObserver.Common.pdb

@@ -23,7 +23,7 @@ namespace PoolObserver.Bot.Managers
             this.telegramBotClient = telegramBotClient;
             this.messageManager = new MessageManager(this.telegramBotClient);
             client = new HttpClient();
-            client.BaseAddress = new Uri(Links.FlyPool);
+            client.BaseAddress = new Uri(Links.EthPool);
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 

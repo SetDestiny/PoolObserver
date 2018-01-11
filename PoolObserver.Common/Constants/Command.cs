@@ -2,6 +2,7 @@
 {
     public enum Command
     {
+        Subscribe,
         ObserveMiner,
         GetCurrentHashrate,
         IsBotActive,

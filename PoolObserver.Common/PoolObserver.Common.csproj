@@ -40,11 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants\Command.cs" />
+    <Compile Include="Constants\Commands.cs" />
+    <Compile Include="Constants\Links.cs" />
+    <Compile Include="Constants\LogTemplates.cs" />
+    <Compile Include="Constants\LogType.cs" />
+    <Compile Include="Constants\MinerStatus.cs" />
+    <Compile Include="Models\PoolStat.cs" />
+    <Compile Include="Models\PoolStatData.cs" />
+    <Compile Include="Models\Profile.cs" />
+    <Compile Include="Constants\Result.cs" />
+    <Compile Include="Models\Subscriber.cs" />
+    <Compile Include="Models\WorkerData.cs" />
+    <Compile Include="Models\Workers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Constants\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
