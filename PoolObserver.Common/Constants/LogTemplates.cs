@@ -2,6 +2,7 @@
 {
     public static class LogTemplates
     {
+        public const string ConnectionError = "Connection interrapted, truing to resume...";
         public const string BotInit = "Trying to initialize bot...";
         public const string BotInitSuccess = "Bot has been initialized successfully...";
         public const string BotInitFail = "Bot failed to initialize... Exeption:[{0}]";

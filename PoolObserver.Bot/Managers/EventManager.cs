@@ -217,6 +217,7 @@ namespace PoolObserver.Bot.Managers
                             System.Threading.Thread.Sleep(60000);
                             continue;
                         }
+                        decreasing = false;
                         LoggingManager.LogEvent(logText, LogType.Event);
                         messageManager.NotifyMinerObserver((sub.Update as Update).Message, poolStatus, poolStat);
 

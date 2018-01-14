@@ -1,300 +1,52 @@
-[1/14/2018 4:07:21 PM] Trying to initialize bot...
-[1/14/2018 4:07:21 PM] Bot has been initialized successfully...
-[1/14/2018 4:07:34 PM] Trying to initialize bot...
+[1/14/2018 8:22:00 PM] Trying to initialize bot...
 
-[1/14/2018 4:07:34 PM] Bot has been initialized successfully...
+[1/14/2018 8:22:00 PM] Bot has been initialized successfully...
 
-[1/14/2018 4:07:38 PM] Trying to resolve received command...
+[1/14/2018 8:22:01 PM] Trying to resolve received command...
 
-[1/14/2018 4:07:41 PM] Trying to subscribe cash ***tezx35xxb51j
+[1/14/2018 8:22:05 PM] Trying to subscribe cash ***bc4b70f54e80a0
 
-[1/14/2018 4:07:41 PM] Subscribed on cash ***tezx35xxb51j
+[1/14/2018 8:22:05 PM] Subscribed on cash *80a0
 
-[1/14/2018 4:07:41 PM] --------------------------------------------------
-                       Process recived data from ***tezx35xxb51j
-                       -current hashrate: 134160.00
-                       -active workers: 2
-
-[1/14/2018 4:09:02 PM] --------------------------------------------------
-                       Process recived data from ***tezx35xxb51j
-                       -current hashrate: 134160.00
-                       -active workers: 2
-
-[1/14/2018 4:09:32 PM] Trying to initialize bot...
-[1/14/2018 4:09:32 PM] Bot has been initialized successfully...
-[1/14/2018 4:09:34 PM] Trying to resolve received command...
-[1/14/2018 4:09:36 PM] Trying to subscribe cash ***tezx35xxb51j
-[1/14/2018 4:09:36 PM] Subscribed on cash ***tezx35xxb51j
-[1/14/2018 4:09:36 PM] --------------------------------------------------
-                       Process recived data from ***tezx35xxb51j
-                       -current hashrate: 134160.00
-                       -active workers: 2
-[1/14/2018 4:10:37 PM] --------------------------------------------------
-                       Process recived data from ***tezx35xxb51j
-                       -current hashrate: 134160.00
-                       -active workers: 2
-[1/14/2018 4:11:36 PM] Trying to initialize bot...
-
-[1/14/2018 4:11:36 PM] Bot has been initialized successfully...
-
-[1/14/2018 4:11:41 PM] Trying to resolve received command...
-
-[1/14/2018 4:11:43 PM] Trying to subscribe cash ***tezx35xxb51j
-
-[1/14/2018 4:11:43 PM] Subscribed on cash ***tezx35xxb51j
-
-[1/14/2018 4:11:43 PM] --------------------------------------------------
-                       Process recived data from ***tezx35xxb51j
-                       -current hashrate: 134160.00
-                       -active workers: 2
-
-[1/14/2018 4:12:43 PM] --------------------------------------------------
-                       Process recived data from ***tezx35xxb51j
-                       -current hashrate: 127946.67
-                       -active workers: 2
-
-[1/14/2018 4:13:43 PM] --------------------------------------------------
-                       Process recived data from ***tezx35xxb51j
-                       -current hashrate: 127946.67
-                       -active workers: 2
-
-[1/14/2018 4:14:43 PM] --------------------------------------------------
-                       Process recived data from ***tezx35xxb51j
-                       -current hashrate: 127946.67
-                       -active workers: 2
-
-[1/14/2018 4:15:44 PM] --------------------------------------------------
-                       Process recived data from ***tezx35xxb51j
-                       -current hashrate: 127946.67
-                       -active workers: 2
-
-[1/14/2018 4:16:44 PM] --------------------------------------------------
-                       Process recived data from ***tezx35xxb51j
-                       -current hashrate: 127946.67
-                       -active workers: 2
-
-[1/14/2018 4:17:44 PM] --------------------------------------------------
-                       Process recived data from ***tezx35xxb51j
-                       -current hashrate: 127946.67
-                       -active workers: 2
-
-[1/14/2018 4:23:40 PM] Trying to initialize bot...
-
-[1/14/2018 4:23:40 PM] Bot has been initialized successfully...
-
-[1/14/2018 4:23:51 PM] Trying to initialize bot...
-
-[1/14/2018 4:23:52 PM] Bot has been initialized successfully...
-
-[1/14/2018 4:24:06 PM] Trying to resolve received command...
-
-[1/14/2018 4:24:24 PM] Trying to subscribe cash ***tezx35xxb51j
-
-[1/14/2018 4:24:31 PM] Subscribed on cash ***tezx35xxb51j
-
-[1/14/2018 4:52:00 PM] Trying to initialize bot...
-
-[1/14/2018 4:52:04 PM] Bot has been initialized successfully...
-
-[1/14/2018 4:59:43 PM] Trying to initialize bot...
-
-[1/14/2018 4:59:43 PM] Bot has been initialized successfully...
-
-[1/14/2018 4:59:46 PM] Trying to resolve received command...
-
-[1/14/2018 4:59:47 PM] Trying to subscribe cash ***bc4b70f54e80a0
-
-[1/14/2018 4:59:47 PM] Subscribed on cash ***bc4b70f54e80a0
-
-[1/14/2018 5:00:40 PM] Trying to initialize bot...
-
-[1/14/2018 5:00:40 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:00:43 PM] Trying to resolve received command...
-
-[1/14/2018 5:00:49 PM] Trying to subscribe cash ***bc4b70f54e80a0
-
-[1/14/2018 5:00:49 PM] Subscribed on cash ***bc4b70f54e80a0
-
-[1/14/2018 5:02:11 PM] Trying to initialize bot...
-
-[1/14/2018 5:02:11 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:02:15 PM] Trying to resolve received command...
-
-[1/14/2018 5:02:21 PM] Trying to subscribe cash ***tezx35xxb51j
-
-[1/14/2018 5:02:21 PM] Subscribed on cash ***tezx35xxb51j
-
-[1/14/2018 5:02:46 PM] Trying to initialize bot...
-
-[1/14/2018 5:02:46 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:02:48 PM] Trying to resolve received command...
-
-[1/14/2018 5:02:53 PM] Trying to subscribe cash ***bc4b70f54e80a0
-
-[1/14/2018 5:02:53 PM] Subscribed on cash ***bc4b70f54e80a0
-
-[1/14/2018 5:05:20 PM] Trying to initialize bot...
-
-[1/14/2018 5:05:20 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:05:28 PM] Trying to resolve received command...
-
-[1/14/2018 5:05:30 PM] Trying to subscribe cash ***bc4b70f54e80a0
-
-[1/14/2018 5:05:30 PM] Subscribed on cash ***bc4b70f54e80a0
-
-[1/14/2018 5:05:37 PM] --------------------------------------------------
-                       Process recived data from ***bc4b70f54e80a0
-                       -current hashrate: 15372833333.33
-                       -active workers: 82
-
-[1/14/2018 5:06:29 PM] Trying to initialize bot...
-
-[1/14/2018 5:06:29 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:06:30 PM] Trying to resolve received command...
-
-[1/14/2018 5:06:34 PM] Trying to resolve received command...
-
-[1/14/2018 5:06:37 PM] Trying to resolve received command...
-
-[1/14/2018 5:06:41 PM] Trying to subscribe cash ***bc4b70f54e80a0
-
-[1/14/2018 5:06:41 PM] Subscribed on cash ***bc4b70f54e80a0
-
-[1/14/2018 5:06:44 PM] --------------------------------------------------
-                       Process recived data from ***bc4b70f54e80a0
-                       -current hashrate: 15372833333.33
-                       -active workers: 82
-
-[1/14/2018 5:07:04 PM] Failed to subscribe cash ***_state
-
-[1/14/2018 5:07:07 PM] Failed to subscribe cash ***_state
-
-[1/14/2018 5:07:11 PM] Failed to subscribe cash ***_state
-
-[1/14/2018 5:07:44 PM] --------------------------------------------------
-                       Process recived data from ***bc4b70f54e80a0
-                       -current hashrate: 15372833333.33
-                       -active workers: 82
-
-[1/14/2018 5:07:56 PM] Trying to initialize bot...
-
-[1/14/2018 5:07:56 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:08:06 PM] Trying to resolve received command...
-
-[1/14/2018 5:08:08 PM] Trying to resolve received command...
-
-[1/14/2018 5:08:13 PM] Trying to subscribe cash ***bc4b70f54e80a0
-
-[1/14/2018 5:08:13 PM] Subscribed on cash ***bc4b70f54e80a0
-
-[1/14/2018 5:08:14 PM] --------------------------------------------------
-                       Process recived data from ***bc4b70f54e80a0
-                       -current hashrate: 15372833333.33
-                       -active workers: 82
-
-[1/14/2018 5:08:19 PM] Trying to resolve received command...
-
-[1/14/2018 5:09:15 PM] Trying to initialize bot...
-
-[1/14/2018 5:09:15 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:10:38 PM] Trying to initialize bot...
-
-[1/14/2018 5:10:38 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:10:44 PM] Trying to resolve received command...
-
-[1/14/2018 5:10:51 PM] Failed to subscribe cash ***d
-
-[1/14/2018 5:11:06 PM] Trying to resolve received command...
-
-[1/14/2018 5:11:09 PM] Trying to subscribe cash ***bc4b70f54e80a0
-
-[1/14/2018 5:11:09 PM] Subscribed on cash ***bc4b70f54e80a0
-
-[1/14/2018 5:11:10 PM] --------------------------------------------------
-                       Process recived data from ***bc4b70f54e80a0
-                       -current hashrate: 15372833333.33
-                       -active workers: 82
-
-[1/14/2018 5:11:17 PM] Trying to resolve received command...
-
-[1/14/2018 5:11:19 PM] Already subscribed on cash ***bc4b70f54e80a0
-
-[1/14/2018 5:12:10 PM] --------------------------------------------------
-                       Process recived data from ***bc4b70f54e80a0
-                       -current hashrate: 15372833333.33
-                       -active workers: 82
-
-[1/14/2018 5:13:29 PM] Trying to initialize bot...
-
-[1/14/2018 5:13:29 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:13:31 PM] Trying to resolve received command...
-
-[1/14/2018 5:13:33 PM] Trying to subscribe cash ***bc4b70f54e80a0
-
-[1/14/2018 5:13:33 PM] Subscribed on cash ***bc4b70f54e80a0
-
-[1/14/2018 5:13:33 PM] --------------------------------------------------
-                       Process recived data from ***bc4b70f54e80a0
-                       -current hashrate: 15416111111.11
-                       -active workers: 81
-
-[1/14/2018 5:15:09 PM] Trying to initialize bot...
-
-[1/14/2018 5:15:09 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:15:22 PM] Trying to initialize bot...
-
-[1/14/2018 5:15:22 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:15:25 PM] Trying to resolve received command...
-
-[1/14/2018 5:15:31 PM] Trying to subscribe cash ***bc4b70f54e80a0
-
-[1/14/2018 5:15:31 PM] Subscribed on cash *80a0
-
-[1/14/2018 5:15:32 PM] --------------------------------------------------
-                       Process recived data from ***bc4b70f54e80a0
-                       -current hashrate: 15416111111.11
-                       -active workers: 81
-
-[1/14/2018 5:16:15 PM] Trying to initialize bot...
-
-[1/14/2018 5:16:15 PM] Bot has been initialized successfully...
-
-[1/14/2018 5:16:19 PM] Trying to resolve received command...
-
-[1/14/2018 5:16:21 PM] Trying to subscribe cash ***bc4b70f54e80a0
-
-[1/14/2018 5:16:21 PM] Subscribed on cash *80a0
-
-[1/14/2018 5:16:21 PM] --------------------------------------------------
+[1/14/2018 8:22:05 PM] --------------------------------------------------
                        Process recived data from *80a0
-                       -current hashrate: 15416111111.11
+                       -current hashrate: 15414222222.22
                        -active workers: 81
 
-[1/14/2018 5:52:14 PM] Trying to initialize bot...
+[1/14/2018 8:22:40 PM] Connection interrapted, truing to resume...
 
-[1/14/2018 5:52:14 PM] Bot has been initialized successfully...
+[1/14/2018 8:24:31 PM] Connection interrapted, truing to resume...
 
-[1/14/2018 5:52:23 PM] Trying to resolve received command...
+[1/14/2018 8:25:33 PM] Trying to initialize bot...
 
-[1/14/2018 5:52:26 PM] Trying to subscribe cash ***bc4b70f54e80a0
+[1/14/2018 8:25:33 PM] Bot has been initialized successfully...
 
-[1/14/2018 5:52:26 PM] Subscribed on cash *80a0
+[1/14/2018 8:25:49 PM] Trying to resolve received command...
 
-[1/14/2018 5:52:26 PM] --------------------------------------------------
+[1/14/2018 8:25:53 PM] Trying to subscribe cash ***bc4b70f54e80a0
+
+[1/14/2018 8:25:53 PM] Subscribed on cash *80a0
+
+[1/14/2018 8:25:53 PM] --------------------------------------------------
                        Process recived data from *80a0
-                       -current hashrate: 15377444444.44
+                       -current hashrate: 15414222222.22
                        -active workers: 81
 
-[1/14/2018 5:52:44 PM] Trying to resolve received command...
+[1/14/2018 8:26:20 PM] Connection interrapted, truing to resume...
+
+[1/14/2018 8:26:52 PM] Connection interrapted, truing to resume...
+
+[1/14/2018 8:27:41 PM] Connection interrapted, truing to resume...
+
+[1/14/2018 8:28:05 PM] Trying to resolve received command...
+
+[1/14/2018 8:28:34 PM] Trying to resolve received command...
+
+[1/14/2018 8:28:56 PM] Connection interrapted, truing to resume...
+
+[1/14/2018 8:28:57 PM] Already subscribed on cash ***bc4b70f54e80a0
+
+[1/14/2018 8:31:14 PM] Trying to initialize bot...
+
+[1/14/2018 8:31:14 PM] Bot has been initialized successfully...
 

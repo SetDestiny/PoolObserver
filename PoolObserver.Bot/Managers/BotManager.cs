@@ -47,12 +47,21 @@ namespace PoolObserver.Bot.Managers
 
                 while (true)
                 {
-                    var updates = await telegramBotClient.GetUpdatesAsync(offset);
-
-                    foreach (var update in updates)
+                    System.Threading.Thread.Sleep(1000);
+                    try
                     {
-                        this.eventManager.ResolveUpdates(update);
-                        offset = update.Id + 1;
+                        var updates = await telegramBotClient.GetUpdatesAsync(offset);
+
+                        foreach (var update in updates)
+                        {
+                            this.eventManager.ResolveUpdates(update);
+                            offset = update.Id + 1;
+                        }
+                    }
+                    catch(Exception ex)
+                    {
+                        LoggingManager.LogEvent(string.Format(LogTemplates.ConnectionError, ex.Message), LogType.Error);
+                        continue;
                     }
                 }
             }
