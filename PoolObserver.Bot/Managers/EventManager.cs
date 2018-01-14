@@ -54,6 +54,7 @@ namespace PoolObserver.Bot.Managers
                         if (this.expectToken)
                         {
                             this.ObserveMiner(update);
+                            this.expectToken = false;
                             return;
                         }
 
@@ -64,6 +65,8 @@ namespace PoolObserver.Bot.Managers
                             if (command == Command.Subscribe)
                             {
                                 this.expectToken = true;
+                                messageManager.SendTextMessage(update.Message, "Please, provide your wallet...");
+                                return;
                             }
 
                             ResolveCommand(command, update);
@@ -107,7 +110,7 @@ namespace PoolObserver.Bot.Managers
 
                                 foreach (var item in workers.Data)
                                 {
-                                    messageManager.SendTextMessage(update.Message, string.Format("Pool :{0}\n-current hashrate:{1}", item.Worker, item.CurrentHashrate));
+                                    messageManager.SendTextMessage(update.Message, string.Format("Worker :{0}\n-current hashrate:{1}", item.Worker, item.CurrentHashrate));
                                 }
                             }
                         }
@@ -183,9 +186,9 @@ namespace PoolObserver.Bot.Managers
 
                 sub.Observer = new Task(async () =>
                 {
-
+                    bool decreasing = false;
                     LoggingManager.LogEvent(string.Format("Trying to subscribe cash ***{0}", miner.Substring((int)(miner.Length / 1.5)).ToLower()), LogType.Event);
-                    LoggingManager.LogEvent(string.Format("Subscribed on cash ***{0}", miner.Substring((int)(miner.Length / 1.5)).ToLower()), LogType.Success);
+                    LoggingManager.LogEvent(string.Format("Subscribed on cash *{0}", miner.Substring((int)(miner.Length - 4)).ToLower()), LogType.Success);
                     messageManager.SendTextMessage((sub.Update as Update).Message, string.Format("Subscribed on cash ***{0}", miner.Substring((int)(miner.Length / 1.5)).ToLower()));
 
                     while (true)
@@ -194,19 +197,29 @@ namespace PoolObserver.Bot.Managers
                         var poolStatus = (sub.PoolManager as PoolManager).GetMinerStatus(poolStat);
                         var margin = new String(' ', 23);
                         var border = new String('-', 50);
-                        var logText = string.Format("{0}\n{1}Process recived data from ***{2}" +
+                        var logText = string.Format("{0}\n{1}Process recived data from *{2}" +
                                                     "\n{3}-current hashrate: {4:0.00}" +
                                                     "\n{5}-active workers: {6}",
                             border,
                             margin,
-                            miner.Substring((int)(miner.Length / 1.5)).ToLower(),
+                            miner.Substring((int)(miner.Length - 4)).ToLower(),
                             margin,
                             poolStat.Data.CurrentHashrate,
                             margin,
                             poolStat.Data.ActiveWorkers);
 
+                        if (poolStatus == MinerStatus.PowerDecreasing && !decreasing)
+                        {
+                            decreasing = true;
+                        }
+                        else
+                        {
+                            System.Threading.Thread.Sleep(60000);
+                            continue;
+                        }
                         LoggingManager.LogEvent(logText, LogType.Event);
                         messageManager.NotifyMinerObserver((sub.Update as Update).Message, poolStatus, poolStat);
+
                         System.Threading.Thread.Sleep(60000);
                     }
 

@@ -1,10 +1,19 @@
 ﻿using PoolObserver.Common.Constants;
 using System;
+using System.IO;
 
 namespace PoolObserver.Bot.Managers
 {
     public static class LoggingManager
     {
+        private static void LogToFile(string text, LogType type)
+        {
+            using (StreamWriter sw = new FileInfo("log.txt").AppendText())
+            {
+                sw.WriteLineAsync(string.Format("{0}{1}\n", string.Format("[{0} {1}] ", DateTime.Now.ToShortDateString(), DateTime.Now.ToLongTimeString()), text));
+            }
+        }
+
         private static void LogToConsole(string text, LogType type)
         {
             LogDateToConsole();
@@ -53,6 +62,7 @@ namespace PoolObserver.Bot.Managers
         public static void LogEvent(string text, LogType type = LogType.Default)
         {
             LogToConsole(text, type);
+            LogToFile(text, type);
         }
     }
 }
