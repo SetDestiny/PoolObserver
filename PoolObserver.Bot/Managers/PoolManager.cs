@@ -83,7 +83,7 @@ namespace PoolObserver.Bot.Managers
             }
             else
             {
-                if (poolStat.Data.CurrentHashrate < poolStat.Data.AverageHashrate)
+                if (poolStat.Data.ReportedHashrate < poolStat.Data.AverageHashrate)
                 {
                     return MinerStatus.PowerDecreasing;
                 }
